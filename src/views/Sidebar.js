@@ -17,7 +17,7 @@ const Sidebar = (props) => {
                         </h3>
                         <List className={classes.sidebarList}>
                             {['Home', 'Analytics'].map((text, index) => (
-                                <ListItem button className={classes.sidebarListItem} key={text} onClick={() => history.push("/Home")}>
+                                <ListItem button className={classes.sidebarListItem} key={text} onClick={() => history.push("/")}>
                                     <ListItemIcon >
                                         {index === 0 ? <Home className={classes.sidebarIcon} /> : <div></div>}
                                         {index === 1 ? <Timeline className={classes.sidebarIcon} /> : <div></div>}
@@ -74,7 +74,7 @@ const Sidebar = (props) => {
                         </h3>
                         <List className={classes.sidebarList}>
                             {['Home'].map((text, index) => (
-                                <ListItem button className={classes.sidebarListItem} key={text} onClick={() => history.push("/Home")}>
+                                <ListItem button className={classes.sidebarListItem} key={text} onClick={() => history.push("/")}>
                                     <ListItemIcon >
                                         {index === 0 ? <Home className={classes.sidebarIcon}  /> : <div></div>}
                                         {index === 1 ? <Timeline className={classes.sidebarIcon} /> : <div></div>}
