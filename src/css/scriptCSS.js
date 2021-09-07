@@ -351,10 +351,10 @@ const scriptCSS = makeStyles(theme =>({
     },
 
     paperStyle: { 
-        padding: 20, 
+        // padding: 20, 
         width: 1300,
-        paddingBlock:'8%',
-        height:"80vh"
+        // paddingBlock:'8%',
+        // height:"80vh"
     },
 
     formStyle3: {

@@ -11,10 +11,10 @@ const SignUpForm = (props) => {
     return (
         <div>
             <Grid container className={classes.centerCon}>
-                <Paper elevation={10} className={classes.paperStyle} style={{height:'67vh'}}>
+                {/* <Paper  className={classes.paperStyle} style={{paddingBlock:'20%'}}> */}
                     <Grid item className={classes.centerCon}>
                         <form className={classes.root}>
-                            <Paper elevation={10} className={classes.formStyle} style={{paddingTop:'15%', width:'50vh', borderRadius:'10%', boxShadow: ' -17px 5px 125px 55px rgba(0,0,0,0.37) inset',}} >
+                            <Paper elevation={10} className={classes.formStyle} style={{marginBlock:'50%', paddingTop:'15%', width:'40vh', borderRadius:'10%', boxShadow: ' -17px 5px 125px 55px rgba(0,0,0,0.37) inset',}} >
                                 <Avatar className={classes.avatarBackground} />
                                 <Typography variant='h4' style={{ fontWeight: 'bold' }}>
                                     Sign in
@@ -58,7 +58,7 @@ const SignUpForm = (props) => {
                             </Paper>
                         </form>
                     </Grid>
-                </Paper>
+                {/* </Paper> */}
             </Grid >
         </div >
     );
