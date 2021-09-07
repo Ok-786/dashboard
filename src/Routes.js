@@ -10,7 +10,7 @@ export default function Routes(props) {
         <div>
             <BrowserRouter>
                 <Switch>
-                    <Route path="/Home" component={Home}/>
+                    <Route path="/" component={Home}/>
                     <Route path="/Signup" component={RegForm} />
                     <Route path="/Dashboard" component={Dashboard} />
                     <Route path="/Signin" component={Signin}/>
@@ -19,7 +19,7 @@ export default function Routes(props) {
                         path="/"
                         render={() => {
                             return (
-                                <Redirect to="/Home" />
+                                <Redirect to="/" />
                             )
                         }}
                     />
