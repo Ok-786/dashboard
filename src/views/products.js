@@ -72,7 +72,7 @@ export default function products(props) {
                             </TableContainer>
 
                         </div>
-                        :
+                        :rows1.cart!=null?
                         <div>
                             <h3 style={{ display: 'flex', justifyContent: 'center', marginBottom: '5%' }}>User Cart</h3>
                             <TableContainer component={Paper} style={{ marginRight: "20px", }} >
@@ -102,6 +102,7 @@ export default function products(props) {
                             </TableContainer>
                             <Button variant="outlined" color="primary" style={{ marginTop: '5%' }} onClick={() => alert("Your items will be dispatched soon!!")}>Checkout</Button>
                         </div>
+                        :""
                     }
                 </div>
             </div>

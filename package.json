@@ -1,7 +1,7 @@
 {
   "name": "dashboard",
   "version": "0.1.0",
-  "homepage": "https://Ok-786.github.io/Dashboard-react-curd",
+  "homepage": "https://Ok-786.github.io/Dashboard",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
